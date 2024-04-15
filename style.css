@@ -1,0 +1,47 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    background-image: url(https://wallpapercave.com/wp/wp7930320.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p {
+    width: auto;
+    max-width: 500px;
+}
+
+.menubar-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)); /* Change the gradient colors and direction as needed */
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
